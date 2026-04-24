@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "play-button",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/public-value-tech/play-button.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9941026d403260aba618e2216f73498ab9e9da29"
+      }
+    }
+  ],
+  "version" : 2
+}

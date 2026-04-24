@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3411AE42943254C000160DD /* MessageBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3411AE32943254C000160DD /* MessageBodyViewController.swift */; };
+		E36030D329336DE400E866AA /* WaveformImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36030D229336DE400E866AA /* WaveformImageView.swift */; };
+		E36030D6293373A100E866AA /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36030D5293373A100E866AA /* UIViewExtensions.swift */; };
+		E36030D9293379C200E866AA /* RecordNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36030D8293379C200E866AA /* RecordNameView.swift */; };
+		E37723AF292F542400041DB8 /* Wafevorm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37723AE292F542400041DB8 /* Wafevorm.swift */; };
+		E37723B4292F58C100041DB8 /* LinearWaveformRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37723B3292F58C100041DB8 /* LinearWaveformRenderer.swift */; };
+		E37723B7292F593E00041DB8 /* WaveformRendererExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37723B6292F593E00041DB8 /* WaveformRendererExtension.swift */; };
+		E37723BA292F59E600041DB8 /* WaveformLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37723B9292F59E600041DB8 /* WaveformLineView.swift */; };
+		E37723BD292F5A9D00041DB8 /* WaveformImageDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37723BC292F5A9D00041DB8 /* WaveformImageDrawer.swift */; };
+		E37723C0292F5B7F00041DB8 /* TempiFFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37723BF292F5B7F00041DB8 /* TempiFFT.swift */; };
+		E37723C2292F5BAB00041DB8 /* WaveformAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37723C1292F5BAB00041DB8 /* WaveformAnalyzer.swift */; };
+		E3B2D34D2930FC0400914500 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2D34C2930FC0400914500 /* RecordButton.swift */; };
+		E3DB36A22932281600582735 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB36A12932281600582735 /* UIViewControllerExtension.swift */; };
+		E3DB36A529322D5D00582735 /* PlayButton in Frameworks */ = {isa = PBXBuildFile; productRef = E3DB36A429322D5D00582735 /* PlayButton */; };
+		E3E01A9A2928D4A500059819 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E01A992928D4A500059819 /* AudioManager.swift */; };
+		E3E01A9E2928E1FE00059819 /* AudioManagerErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E01A9D2928E1FE00059819 /* AudioManagerErrors.swift */; };
+		E3FC85A9291F9A21003FCE85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FC85A8291F9A21003FCE85 /* AppDelegate.swift */; };
+		E3FC85AB291F9A21003FCE85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FC85AA291F9A21003FCE85 /* SceneDelegate.swift */; };
+		E3FC85AD291F9A21003FCE85 /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FC85AC291F9A21003FCE85 /* RecordingViewController.swift */; };
+		E3FC85B0291F9A21003FCE85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FC85AE291F9A21003FCE85 /* Main.storyboard */; };
+		E3FC85B2291F9A23003FCE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FC85B1291F9A23003FCE85 /* Assets.xcassets */; };
+		E3FC85B5291F9A23003FCE85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FC85B3291F9A23003FCE85 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3411AE32943254C000160DD /* MessageBodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBodyViewController.swift; sourceTree = "<group>"; };
+		E36030D229336DE400E866AA /* WaveformImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformImageView.swift; sourceTree = "<group>"; };
+		E36030D5293373A100E866AA /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		E36030D8293379C200E866AA /* RecordNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordNameView.swift; sourceTree = "<group>"; };
+		E37723AE292F542400041DB8 /* Wafevorm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wafevorm.swift; sourceTree = "<group>"; };
+		E37723B3292F58C100041DB8 /* LinearWaveformRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearWaveformRenderer.swift; sourceTree = "<group>"; };
+		E37723B6292F593E00041DB8 /* WaveformRendererExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformRendererExtension.swift; sourceTree = "<group>"; };
+		E37723B9292F59E600041DB8 /* WaveformLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformLineView.swift; sourceTree = "<group>"; };
+		E37723BC292F5A9D00041DB8 /* WaveformImageDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformImageDrawer.swift; sourceTree = "<group>"; };
+		E37723BF292F5B7F00041DB8 /* TempiFFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempiFFT.swift; sourceTree = "<group>"; };
+		E37723C1292F5BAB00041DB8 /* WaveformAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformAnalyzer.swift; sourceTree = "<group>"; };
+		E3B2D34C2930FC0400914500 /* RecordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		E3DB36A12932281600582735 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		E3E01A992928D4A500059819 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		E3E01A9D2928E1FE00059819 /* AudioManagerErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManagerErrors.swift; sourceTree = "<group>"; };
+		E3FC85A5291F9A21003FCE85 /* Vail v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vail v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FC85A8291F9A21003FCE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3FC85AA291F9A21003FCE85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E3FC85AC291F9A21003FCE85 /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		E3FC85AF291F9A21003FCE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3FC85B1291F9A23003FCE85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3FC85B4291F9A23003FCE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3FC85B6291F9A23003FCE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3FC85A2291F9A21003FCE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DB36A529322D5D00582735 /* PlayButton in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E36030D42933738800E866AA /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				E36030D5293373A100E866AA /* UIViewExtensions.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		E36030D7293379AE00E866AA /* RecordName */ = {
+			isa = PBXGroup;
+			children = (
+				E36030D8293379C200E866AA /* RecordNameView.swift */,
+			);
+			path = RecordName;
+			sourceTree = "<group>";
+		};
+		E37723AD292F541400041DB8 /* Wafevorm */ = {
+			isa = PBXGroup;
+			children = (
+				E37723BE292F5B6A00041DB8 /* Analyzer */,
+				E37723BB292F5A8800041DB8 /* Drawer */,
+				E37723AE292F542400041DB8 /* Wafevorm.swift */,
+			);
+			path = Wafevorm;
+			sourceTree = "<group>";
+		};
+		E37723B0292F587600041DB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E36030D7293379AE00E866AA /* RecordName */,
+				E3B2D34B2930FBE400914500 /* Record */,
+				E37723B1292F587C00041DB8 /* Waveform */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E37723B1292F587C00041DB8 /* Waveform */ = {
+			isa = PBXGroup;
+			children = (
+				E37723B9292F59E600041DB8 /* WaveformLineView.swift */,
+				E37723B2292F588700041DB8 /* Renderer */,
+				E36030D229336DE400E866AA /* WaveformImageView.swift */,
+			);
+			path = Waveform;
+			sourceTree = "<group>";
+		};
+		E37723B2292F588700041DB8 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				E37723B3292F58C100041DB8 /* LinearWaveformRenderer.swift */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		E37723B5292F591E00041DB8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E36030D42933738800E866AA /* UIView */,
+				E3DB36A0293225A000582735 /* UIViewController */,
+				E37723B8292F594100041DB8 /* WaveformRenderer */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E37723B8292F594100041DB8 /* WaveformRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				E37723B6292F593E00041DB8 /* WaveformRendererExtension.swift */,
+			);
+			path = WaveformRenderer;
+			sourceTree = "<group>";
+		};
+		E37723BB292F5A8800041DB8 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				E37723BC292F5A9D00041DB8 /* WaveformImageDrawer.swift */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		E37723BE292F5B6A00041DB8 /* Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				E37723BF292F5B7F00041DB8 /* TempiFFT.swift */,
+				E37723C1292F5BAB00041DB8 /* WaveformAnalyzer.swift */,
+			);
+			path = Analyzer;
+			sourceTree = "<group>";
+		};
+		E3B2D34B2930FBE400914500 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2D34C2930FC0400914500 /* RecordButton.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		E3DB36A0293225A000582735 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3DB36A12932281600582735 /* UIViewControllerExtension.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		E3E01A952928D46900059819 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E37723B5292F591E00041DB8 /* Extensions */,
+				E37723AD292F541400041DB8 /* Wafevorm */,
+				E3E01A9B2928E1E000059819 /* Errors */,
+				E3E01A972928D48B00059819 /* Managers */,
+				E3E01A962928D47B00059819 /* Delegates */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3E01A962928D47B00059819 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E3FC85AA291F9A21003FCE85 /* SceneDelegate.swift */,
+				E3FC85A8291F9A21003FCE85 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E3E01A972928D48B00059819 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E3E01A982928D49400059819 /* Audio */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E3E01A982928D49400059819 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				E3E01A992928D4A500059819 /* AudioManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		E3E01A9B2928E1E000059819 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				E3E01A9C2928E1EB00059819 /* AudioManager */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		E3E01A9C2928E1EB00059819 /* AudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				E3E01A9D2928E1FE00059819 /* AudioManagerErrors.swift */,
+			);
+			path = AudioManager;
+			sourceTree = "<group>";
+		};
+		E3FC859C291F9A21003FCE85 = {
+			isa = PBXGroup;
+			children = (
+				E3FC85A7291F9A21003FCE85 /* Vail */,
+				E3FC85A6291F9A21003FCE85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3FC85A6291F9A21003FCE85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3FC85A5291F9A21003FCE85 /* Vail v2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3FC85A7291F9A21003FCE85 /* Vail */ = {
+			isa = PBXGroup;
+			children = (
+				E37723B0292F587600041DB8 /* Views */,
+				E3E01A952928D46900059819 /* Supporting Files */,
+				E3FC85AC291F9A21003FCE85 /* RecordingViewController.swift */,
+				E3FC85AE291F9A21003FCE85 /* Main.storyboard */,
+				E3FC85B1291F9A23003FCE85 /* Assets.xcassets */,
+				E3FC85B3291F9A23003FCE85 /* LaunchScreen.storyboard */,
+				E3FC85B6291F9A23003FCE85 /* Info.plist */,
+				E3411AE32943254C000160DD /* MessageBodyViewController.swift */,
+			);
+			path = Vail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3FC85A4291F9A21003FCE85 /* Vail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FC85B9291F9A23003FCE85 /* Build configuration list for PBXNativeTarget "Vail" */;
+			buildPhases = (
+				E3FC85A1291F9A21003FCE85 /* Sources */,
+				E3FC85A2291F9A21003FCE85 /* Frameworks */,
+				E3FC85A3291F9A21003FCE85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vail;
+			packageProductDependencies = (
+				E3DB36A429322D5D00582735 /* PlayButton */,
+			);
+			productName = Vial;
+			productReference = E3FC85A5291F9A21003FCE85 /* Vail v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3FC859D291F9A21003FCE85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E3FC85A4291F9A21003FCE85 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = E3FC85A0291F9A21003FCE85 /* Build configuration list for PBXProject "Vail" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3FC859C291F9A21003FCE85;
+			packageReferences = (
+				E3DB36A329322D5D00582735 /* XCRemoteSwiftPackageReference "play-button" */,
+			);
+			productRefGroup = E3FC85A6291F9A21003FCE85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3FC85A4291F9A21003FCE85 /* Vail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3FC85A3291F9A21003FCE85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FC85B5291F9A23003FCE85 /* LaunchScreen.storyboard in Resources */,
+				E3FC85B2291F9A23003FCE85 /* Assets.xcassets in Resources */,
+				E3FC85B0291F9A21003FCE85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3FC85A1291F9A21003FCE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E01A9E2928E1FE00059819 /* AudioManagerErrors.swift in Sources */,
+				E3FC85AD291F9A21003FCE85 /* RecordingViewController.swift in Sources */,
+				E37723C2292F5BAB00041DB8 /* WaveformAnalyzer.swift in Sources */,
+				E37723AF292F542400041DB8 /* Wafevorm.swift in Sources */,
+				E37723C0292F5B7F00041DB8 /* TempiFFT.swift in Sources */,
+				E3FC85A9291F9A21003FCE85 /* AppDelegate.swift in Sources */,
+				E3E01A9A2928D4A500059819 /* AudioManager.swift in Sources */,
+				E36030D329336DE400E866AA /* WaveformImageView.swift in Sources */,
+				E3B2D34D2930FC0400914500 /* RecordButton.swift in Sources */,
+				E37723BA292F59E600041DB8 /* WaveformLineView.swift in Sources */,
+				E36030D6293373A100E866AA /* UIViewExtensions.swift in Sources */,
+				E37723B7292F593E00041DB8 /* WaveformRendererExtension.swift in Sources */,
+				E3411AE42943254C000160DD /* MessageBodyViewController.swift in Sources */,
+				E37723BD292F5A9D00041DB8 /* WaveformImageDrawer.swift in Sources */,
+				E37723B4292F58C100041DB8 /* LinearWaveformRenderer.swift in Sources */,
+				E36030D9293379C200E866AA /* RecordNameView.swift in Sources */,
+				E3DB36A22932281600582735 /* UIViewControllerExtension.swift in Sources */,
+				E3FC85AB291F9A21003FCE85 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3FC85AE291F9A21003FCE85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3FC85AF291F9A21003FCE85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3FC85B3291F9A23003FCE85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3FC85B4291F9A23003FCE85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3FC85B7291F9A23003FCE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3FC85B8291F9A23003FCE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3FC85BA291F9A23003FCE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vail/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vail App would like to access your microphone in order to record your voice.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bg.devlabs.Vail;
+				PRODUCT_NAME = "$(TARGET_NAME) v2";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3FC85BB291F9A23003FCE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vail/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vail App would like to access your microphone in order to record your voice.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bg.devlabs.Vail;
+				PRODUCT_NAME = "$(TARGET_NAME) v2";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3FC85A0291F9A21003FCE85 /* Build configuration list for PBXProject "Vail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FC85B7291F9A23003FCE85 /* Debug */,
+				E3FC85B8291F9A23003FCE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FC85B9291F9A23003FCE85 /* Build configuration list for PBXNativeTarget "Vail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FC85BA291F9A23003FCE85 /* Debug */,
+				E3FC85BB291F9A23003FCE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E3DB36A329322D5D00582735 /* XCRemoteSwiftPackageReference "play-button" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/public-value-tech/play-button.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E3DB36A429322D5D00582735 /* PlayButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3DB36A329322D5D00582735 /* XCRemoteSwiftPackageReference "play-button" */;
+			productName = PlayButton;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E3FC859D291F9A21003FCE85 /* Project object */;
+}
