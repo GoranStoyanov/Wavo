@@ -8,85 +8,97 @@
 import UIKit
 
 class MessageBodyViewController: UIViewController {
-    
-    // MARK: - Singleton properties
-    
-    // MARK: - Static properties
-    
-    // MARK: - Public properties
-    
-    // MARK: - Public methods
-    
-    // MARK: - Initialize/Lifecycle methods
-    
+
+    // MARK: - Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("shit!")
         setup()
     }
-    
+
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        
         if !messageBodyTextView.text.isEmpty {
             UserDefaults.standard.set(messageBodyTextView.text, forKey: "kVailNewMessageBody")
         }
     }
-    
-    // MARK: - Override methods
-    
+
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        
-        backButton.frame = CGRect(x: 16.0, y: 8.0, width: 44.0, height: 44.0)
-        
-        messageBodyTextView.frame = CGRect(x: 8.0, y: 8.0 + backButton.frame.maxY, width: view.bounds.width - 16.0, height: view.bounds.height * 0.25)
+
+        let p = CGFloat(16)
+        backButton.frame = CGRect(x: p, y: 8, width: 44, height: 44)
+        titleLabel.frame = CGRect(x: p + 52, y: 8, width: view.bounds.width - (p + 52) * 2, height: 44)
+        subtitleLabel.frame = CGRect(x: p, y: backButton.frame.maxY + 8, width: view.bounds.width - p * 2, height: 36)
+        messageBodyTextView.frame = CGRect(x: p, y: subtitleLabel.frame.maxY + p, width: view.bounds.width - p * 2, height: view.bounds.height * 0.35)
     }
-    
+
     // MARK: - Private properties
-    
+
+    private struct Palette {
+        static let background = UIColor.systemBackground
+        static let surface = UIColor.secondarySystemBackground
+        static let primary = UIColor.label
+        static let secondary = UIColor.secondaryLabel
+    }
+
+    private var titleLabel: UILabel! {
+        didSet {
+            titleLabel.text = "Message Body"
+            titleLabel.font = .systemFont(ofSize: 17, weight: .semibold)
+            titleLabel.textColor = Palette.primary
+            titleLabel.textAlignment = .center
+            view.addSubview(titleLabel)
+        }
+    }
+
+    private var subtitleLabel: UILabel! {
+        didSet {
+            subtitleLabel.text = "This text will be included in every email you send."
+            subtitleLabel.font = .systemFont(ofSize: 13)
+            subtitleLabel.textColor = Palette.secondary
+            subtitleLabel.numberOfLines = 0
+            view.addSubview(subtitleLabel)
+        }
+    }
+
     private var messageBodyTextView: UITextView! {
         didSet {
-            messageBodyTextView.contentInset = UIEdgeInsets(top: 8.0, left: 8.0, bottom: 8.0, right: 8.0)
-            messageBodyTextView.layer.cornerRadius = 8.0
-            messageBodyTextView.layer.borderColor = UIColor.label.cgColor
-            messageBodyTextView.layer.borderWidth = 1.0
+            messageBodyTextView.contentInset = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
+            messageBodyTextView.layer.cornerRadius = 12
+            messageBodyTextView.backgroundColor = Palette.surface
             messageBodyTextView.text = UserDefaults.standard.string(forKey: "kVailNewMessageBody") ?? ""
-            messageBodyTextView.textColor = .label
+            messageBodyTextView.textColor = Palette.primary
+            messageBodyTextView.font = .systemFont(ofSize: 15)
             view.addSubview(messageBodyTextView)
         }
     }
-    
+
     private var backButton: UIButton! {
         didSet {
             backButton.setImage(UIImage(systemName: "chevron.backward"), for: .normal)
-            backButton.tintColor = .label
-            backButton.addTarget(self, action: #selector(dismiss(sender:)), for: .touchUpInside)
-            
+            backButton.tintColor = Palette.secondary
+            backButton.addTarget(self, action: #selector(dismissAction), for: .touchUpInside)
             view.addSubview(backButton)
         }
     }
-    
+
     // MARK: - Private methods
 
     private func setup() {
+        view.backgroundColor = Palette.background
+        titleLabel = UILabel()
+        subtitleLabel = UILabel()
         messageBodyTextView = UITextView()
         backButton = UIButton()
-        let spaceKeyCommand = UIKeyCommand(input: " ",
-                                                   modifierFlags: [],
-                                                   action: #selector(spaceKeyPressed(_:)))
-                
-                // Register the keyboard shortcut
-                addKeyCommand(spaceKeyCommand)
-    }
-    
-    @objc func spaceKeyPressed(_ sender: UIKeyCommand) {
-            // Handle the action when space key is pressed
-            print("Space key pressed!")
-        }
-    
-    @objc private func dismiss(sender: UIButton) {
-        dismiss(animated: true)
+
+        let spaceKeyCommand = UIKeyCommand(input: " ", modifierFlags: [], action: #selector(spaceKeyPressed(_:)))
+        addKeyCommand(spaceKeyCommand)
     }
 
+    @objc func spaceKeyPressed(_ sender: UIKeyCommand) {}
+
+    @objc private func dismissAction() {
+        dismiss(animated: true)
+    }
 }
