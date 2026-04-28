@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E3FC85A4291F9A21003FCE85"
-               BuildableName = "Vail v2.app"
+               BuildableName = "Vail.app"
                BlueprintName = "Vail"
                ReferencedContainer = "container:Vail.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E3FC85A4291F9A21003FCE85"
-            BuildableName = "Vail v2.app"
+            BuildableName = "Vail.app"
             BlueprintName = "Vail"
             ReferencedContainer = "container:Vail.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E3FC85A4291F9A21003FCE85"
-            BuildableName = "Vail v2.app"
+            BuildableName = "Vail.app"
             BlueprintName = "Vail"
             ReferencedContainer = "container:Vail.xcodeproj">
          </BuildableReference>

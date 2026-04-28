@@ -1,4 +1,5 @@
 {
+  "originHash" : "3540e9cbe8a3be9aae05378ab212665f5d8bb45f877ef3a91f2385d86a43e9af",
   "pins" : [
     {
       "identity" : "play-button",
@@ -10,5 +11,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
