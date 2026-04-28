@@ -46,6 +46,7 @@ class RecordingViewController: UIViewController {
         let controlsWidth = buttonSize.width * 2 + p * 4
         playButton.frame = CGRect(x: view.bounds.midX - controlsWidth / 2, y: timeLabel.frame.maxY + p, width: buttonSize.width, height: buttonSize.height)
         recordButton.frame = CGRect(x: playButton.frame.maxX + p * 2, y: playButton.frame.minY, width: buttonSize.width, height: buttonSize.height)
+        recordButton.layer.cornerRadius = buttonSize.height / 2
 
         recordingNameField.frame = CGRect(x: p, y: recordButton.frame.maxY + p, width: view.bounds.width - p * 2, height: 46)
         copyButton.frame = CGRect(x: p, y: recordingNameField.frame.maxY + p, width: view.bounds.width - p * 2, height: Dimensions.ActionButtonHeight)
@@ -74,7 +75,11 @@ class RecordingViewController: UIViewController {
         static let ActionButtonHeight = CGFloat(50.0)
     }
 
-    private let buttonSize = CGSize(width: 52.0, height: 52.0)
+    private var buttonSize: CGSize {
+        UIDevice.current.userInterfaceIdiom == .pad
+            ? CGSize(width: 80.0, height: 80.0)
+            : CGSize(width: 52.0, height: 52.0)
+    }
 
     private var titleLabel: UILabel! {
         didSet {
