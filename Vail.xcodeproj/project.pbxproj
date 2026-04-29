@@ -47,7 +47,7 @@
 		E3DB36A12932281600582735 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		E3E01A992928D4A500059819 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		E3E01A9D2928E1FE00059819 /* AudioManagerErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManagerErrors.swift; sourceTree = "<group>"; };
-		E3FC85A5291F9A21003FCE85 /* Vail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wavo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FC85A5291F9A21003FCE85 /* Wavo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wavo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FC85A8291F9A21003FCE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3FC85AA291F9A21003FCE85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E3FC85AC291F9A21003FCE85 /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
@@ -238,7 +238,7 @@
 		E3FC85A6291F9A21003FCE85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3FC85A5291F9A21003FCE85 /* Vail.app */,
+				E3FC85A5291F9A21003FCE85 /* Wavo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,9 +261,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E3FC85A4291F9A21003FCE85 /* Vail */ = {
+		E3FC85A4291F9A21003FCE85 /* Wavo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3FC85B9291F9A23003FCE85 /* Build configuration list for PBXNativeTarget "Vail" */;
+			buildConfigurationList = E3FC85B9291F9A23003FCE85 /* Build configuration list for PBXNativeTarget "Wavo" */;
 			buildPhases = (
 				E3FC85A1291F9A21003FCE85 /* Sources */,
 				E3FC85A2291F9A21003FCE85 /* Frameworks */,
@@ -312,7 +312,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3FC85A4291F9A21003FCE85 /* Vail */,
+				E3FC85A4291F9A21003FCE85 /* Wavo */,
 			);
 		};
 /* End PBXProject section */
@@ -508,7 +508,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,7 +538,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3FC85B9291F9A23003FCE85 /* Build configuration list for PBXNativeTarget "Vail" */ = {
+		E3FC85B9291F9A23003FCE85 /* Build configuration list for PBXNativeTarget "Wavo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3FC85BA291F9A23003FCE85 /* Debug */,
