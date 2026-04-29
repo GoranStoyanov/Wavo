@@ -1,4 +1,4 @@
-# Vail
+# Wavo
 
 A minimal iOS voice memo recorder. Record audio, preview the waveform, and copy the recording (with an optional message body) to the clipboard for sharing.
 

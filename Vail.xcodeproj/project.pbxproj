@@ -47,7 +47,7 @@
 		E3DB36A12932281600582735 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		E3E01A992928D4A500059819 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		E3E01A9D2928E1FE00059819 /* AudioManagerErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManagerErrors.swift; sourceTree = "<group>"; };
-		E3FC85A5291F9A21003FCE85 /* Vail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FC85A5291F9A21003FCE85 /* Vail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wavo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FC85A8291F9A21003FCE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3FC85AA291F9A21003FCE85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E3FC85AC291F9A21003FCE85 /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
@@ -273,12 +273,12 @@
 			);
 			dependencies = (
 			);
-			name = Vail;
+			name = Wavo;
 			packageProductDependencies = (
 				E3DB36A429322D5D00582735 /* PlayButton */,
 			);
-			productName = Vial;
-			productReference = E3FC85A5291F9A21003FCE85 /* Vail.app */;
+			productName = Wavo;
+			productReference = E3FC85A5291F9A21003FCE85 /* Wavo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -499,22 +499,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 21;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TV74DGM35Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vail/Info.plist;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vail App would like to access your microphone in order to record your voice.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Wavo would like to access your microphone to record your voice.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = bg.devlabs.Vail;
+				PRODUCT_BUNDLE_IDENTIFIER = bg.devlabs.Wavo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -529,22 +529,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 21;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TV74DGM35Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vail/Info.plist;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vail App would like to access your microphone in order to record your voice.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Wavo would like to access your microphone to record your voice.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = bg.devlabs.Vail;
+				PRODUCT_BUNDLE_IDENTIFIER = bg.devlabs.Wavo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -19,7 +19,7 @@ class MessageBodyViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         if !messageBodyTextView.text.isEmpty {
-            UserDefaults.standard.set(messageBodyTextView.text, forKey: "kVailNewMessageBody")
+            UserDefaults.standard.set(messageBodyTextView.text, forKey: "kWavoNewMessageBody")
         }
     }
 
@@ -67,7 +67,7 @@ class MessageBodyViewController: UIViewController {
             messageBodyTextView.contentInset = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
             messageBodyTextView.layer.cornerRadius = 12
             messageBodyTextView.backgroundColor = Palette.surface
-            messageBodyTextView.text = UserDefaults.standard.string(forKey: "kVailNewMessageBody") ?? ""
+            messageBodyTextView.text = UserDefaults.standard.string(forKey: "kWavoNewMessageBody") ?? ""
             messageBodyTextView.textColor = Palette.primary
             messageBodyTextView.font = .systemFont(ofSize: 15)
             view.addSubview(messageBodyTextView)

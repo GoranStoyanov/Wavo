@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E3FC85A4291F9A21003FCE85"
-               BuildableName = "Vail.app"
-               BlueprintName = "Vail"
+               BuildableName = "Wavo.app"
+               BlueprintName = "Wavo"
                ReferencedContainer = "container:Vail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E3FC85A4291F9A21003FCE85"
-            BuildableName = "Vail.app"
-            BlueprintName = "Vail"
+            BuildableName = "Wavo.app"
+            BlueprintName = "Wavo"
             ReferencedContainer = "container:Vail.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E3FC85A4291F9A21003FCE85"
-            BuildableName = "Vail.app"
-            BlueprintName = "Vail"
+            BuildableName = "Wavo.app"
+            BlueprintName = "Wavo"
             ReferencedContainer = "container:Vail.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

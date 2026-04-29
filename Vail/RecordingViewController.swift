@@ -83,7 +83,7 @@ class RecordingViewController: UIViewController {
 
     private var titleLabel: UILabel! {
         didSet {
-            titleLabel.text = "Vail"
+            titleLabel.text = "Wavo"
             titleLabel.font = .systemFont(ofSize: 28, weight: .bold)
             titleLabel.textColor = Palette.primary
             view.addSubview(titleLabel)
@@ -92,7 +92,7 @@ class RecordingViewController: UIViewController {
 
     private var subtitleLabel: UILabel! {
         didSet {
-            subtitleLabel.text = "Voice to Email"
+            subtitleLabel.text = "Say it. Send it."
             subtitleLabel.font = .systemFont(ofSize: 13, weight: .regular)
             subtitleLabel.textColor = Palette.secondary
             view.addSubview(subtitleLabel)
@@ -355,7 +355,7 @@ class RecordingViewController: UIViewController {
         if let attachmentUrl = audioManager.lastRecordedAudioPath,
            let attachment = NSItemProvider(contentsOf: attachmentUrl) {
             attachment.suggestedName = recordingNameField.text
-            let stringProvider = NSItemProvider(object: (UserDefaults.standard.string(forKey: "kVailNewMessageBody") ?? "") as NSItemProviderWriting)
+            let stringProvider = NSItemProvider(object: (UserDefaults.standard.string(forKey: "kWavoNewMessageBody") ?? "") as NSItemProviderWriting)
             UIPasteboard.general.itemProviders = [stringProvider, attachment]
             showToast(message: "Copied to clipboard", seconds: 1.5)
         }
@@ -368,7 +368,7 @@ class RecordingViewController: UIViewController {
         }
         let composer = MFMailComposeViewController()
         composer.mailComposeDelegate = self
-        composer.setMessageBody(UserDefaults.standard.string(forKey: "kVailNewMessageBody") ?? "", isHTML: false)
+        composer.setMessageBody(UserDefaults.standard.string(forKey: "kWavoNewMessageBody") ?? "", isHTML: false)
         if let audioUrl = audioManager.lastRecordedAudioPath,
            let audioData = try? Data(contentsOf: audioUrl) {
             let fileName = recordingNameField.text ?? audioUrl.lastPathComponent
@@ -463,7 +463,7 @@ extension RecordingViewController: AudioManagerRecordingDelegate {
     func didAllowRecording(manager: AudioManager, flag: Bool) {
         if !flag {
             recordButton.endRecording()
-            showAlert(message: "Access to microphone is denied. To enable it again go to Settings → Vail.")
+            showAlert(message: "Access to microphone is denied. To enable it again go to Settings → Wavo.")
         }
     }
 

@@ -15,8 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        if UserDefaults.standard.string(forKey: "kVailNewMessageBody") == nil {
-            UserDefaults.standard.set("Dear friend,\n\nI am trying to save on typing, so here is an audio recording of my “email”…", forKey: "kVailNewMessageBody")
+        if UserDefaults.standard.string(forKey: "kWavoNewMessageBody") == nil {
+            UserDefaults.standard.set("Dear friend,\n\nI am trying to save on typing, so here is an audio recording of my “email”…", forKey: "kWavoNewMessageBody")
         }
         
         return true
