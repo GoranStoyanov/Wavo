@@ -502,7 +502,8 @@
 				DEVELOPMENT_TEAM = TV74DGM35Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Wavo/Info.plist;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Wavo would like to access your microphone to record your voice.";
+				INFOPLIST_KEY_CFBundleDisplayName = "Wavo Voice";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Wavo Voice would like to access your microphone to record your voice.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -532,7 +533,8 @@
 				DEVELOPMENT_TEAM = TV74DGM35Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Wavo/Info.plist;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Wavo would like to access your microphone to record your voice.";
+				INFOPLIST_KEY_CFBundleDisplayName = "Wavo Voice";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Wavo Voice would like to access your microphone to record your voice.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

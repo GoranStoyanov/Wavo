@@ -83,7 +83,7 @@ class RecordingViewController: UIViewController {
 
     private var titleLabel: UILabel! {
         didSet {
-            titleLabel.text = "Wavo"
+            titleLabel.text = "Wavo Voice"
             titleLabel.font = .systemFont(ofSize: 28, weight: .bold)
             titleLabel.textColor = Palette.primary
             view.addSubview(titleLabel)
