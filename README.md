@@ -16,4 +16,4 @@ A minimal iOS voice memo recorder. Record audio, preview the waveform, and copy 
 
 ## Getting Started
 
-Open `Vail.xcodeproj` in Xcode, select a simulator or device, and press Run (⌘R).
+Open `Wavo.xcodeproj` in Xcode, select a simulator or device, and press Run (⌘R).

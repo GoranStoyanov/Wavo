@@ -17,7 +17,7 @@
                BlueprintIdentifier = "E3FC85A4291F9A21003FCE85"
                BuildableName = "Wavo.app"
                BlueprintName = "Wavo"
-               ReferencedContainer = "container:Vail.xcodeproj">
+               ReferencedContainer = "container:Wavo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "E3FC85A4291F9A21003FCE85"
             BuildableName = "Wavo.app"
             BlueprintName = "Wavo"
-            ReferencedContainer = "container:Vail.xcodeproj">
+            ReferencedContainer = "container:Wavo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "E3FC85A4291F9A21003FCE85"
             BuildableName = "Wavo.app"
             BlueprintName = "Wavo"
-            ReferencedContainer = "container:Vail.xcodeproj">
+            ReferencedContainer = "container:Wavo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
