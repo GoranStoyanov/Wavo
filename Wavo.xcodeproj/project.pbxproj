@@ -255,7 +255,7 @@
 				E3FC85B6291F9A23003FCE85 /* Info.plist */,
 				E3411AE32943254C000160DD /* MessageBodyViewController.swift */,
 			);
-			path = Vail;
+			path = Wavo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -501,7 +501,7 @@
 				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_TEAM = TV74DGM35Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Vail/Info.plist;
+				INFOPLIST_FILE = Wavo/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Wavo would like to access your microphone to record your voice.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -531,7 +531,7 @@
 				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_TEAM = TV74DGM35Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Vail/Info.plist;
+				INFOPLIST_FILE = Wavo/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Wavo would like to access your microphone to record your voice.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
